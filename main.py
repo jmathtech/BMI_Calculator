@@ -47,12 +47,12 @@ class BMIIndex(customtkinter.CTk):
                                             justify=customtkinter.LEFT)
         label_left.place(relx=0.5, rely=0.15, anchor="center")
 
-        label_right_01 = customtkinter.CTkLabel(master=frame_right, text="Enter the user's height in inches: ",
+        label_right_01 = customtkinter.CTkLabel(master=frame_right, text="Enter your height in inches: ",
                                                 font=customtkinter.CTkFont(size=12),
                                                 justify=customtkinter.LEFT)
         label_right_01.place(relx=0.5, rely=0.07, anchor="center")
 
-        label_right_02 = customtkinter.CTkLabel(master=frame_right, text="Enter the user's weight in pounds: ",
+        label_right_02 = customtkinter.CTkLabel(master=frame_right, text="Enter your weight in pounds: ",
                                                 font=customtkinter.CTkFont(size=12),
                                                 justify=customtkinter.LEFT)
         label_right_02.place(relx=0.5, rely=0.35, anchor="center")
@@ -153,3 +153,5 @@ class BMIIndex(customtkinter.CTk):
 if __name__ == "__main__":
     bmi_index = BMIIndex()
     bmi_index.mainloop()
+
+    
