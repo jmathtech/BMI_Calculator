@@ -11,3 +11,7 @@ The display_bmi method is called when the user clicks the "Calculate" button. Th
 The get_status method takes the BMI and returns a string describing the user's weight status based on their BMI.
 
 The issue is that label_right_05 is not defined anywhere in the class, thus when the script is trying to reference it in the display_bmi method, it raises an attribute error.
+
+## [ Video Demo ]
+https://user-images.githubusercontent.com/36749450/214368450-0d30ab8d-46bc-436f-b3d4-8580cee71b3e.mp4
+
