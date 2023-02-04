@@ -1,7 +1,7 @@
 """"
 This script is written by Jamil Matheny - 1/23/2023
 Refurbished with script from BMI calculator - https://github.com/jmathtech/Weight-Class-BMI-Calculator
-CustomTkinter library is by Tom Schimansky
+CustomTkinter library by Tom Schimansky
 https://github.com/TomSchimansky/CustomTkinter
 """
 
